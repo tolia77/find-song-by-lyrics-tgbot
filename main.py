@@ -2,7 +2,7 @@ from telebot import TeleBot
 from telebot.types import ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardRemove
 from lyricsgenius import Genius
 
-bot_token = "5098367995:AAF2rCZNjfy3u_3wKo9602KFc7gILzJJGWw"
+bot_token = "token"
 bot = TeleBot(bot_token)
 
 
