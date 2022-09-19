@@ -36,7 +36,7 @@ def find_songs(message):
 @bot.callback_query_handler(func=lambda call: True)
 def get_link(call):
     if call.data == "get_link":
-        bot.answer_callback_query(call.id, "Неверно, Верный ответ...", show_alert=True)
+        bot.answer_callback_query(call.id, "Coming soon...", show_alert=True)
 
 if __name__ == "__main__":
     bot.polling(none_stop=True)
