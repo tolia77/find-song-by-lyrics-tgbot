@@ -23,7 +23,7 @@ def find_songs(message):
     inline_markup.row_width = 2
     inline_markup.add(InlineKeyboardButton("Link", callback_data="get_link"))
     lyrics = message.text
-    genius_token = "RktvgwfbDpIeE80rsEd0Uk12aA-sq9UiSq_jzWVdXO4dx3pP9bNa2N-vrBfL6owT"
+    genius_token = "genius_token"
     genius = Genius(genius_token)
     request = genius.search_lyrics(lyrics)
     for song in request['sections'][0]['hits']:
